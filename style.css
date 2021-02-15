@@ -1,3 +1,4 @@
+/*
 header{
   width: 100%;
   height: 380px;
@@ -5,63 +6,36 @@ header{
   background-size: cover;
   background-position: center;
 }
+*/
 
-
-.head-container{
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-}
 
 h1{
-    font-size: 40px;
+    font-size: 50px;
     font-family: serif;
-    text-shadow: 1px 1px 0 black;
+    text-align: center;
   }
 
-header ul{
-  list-style-type: none;
-}
-
-header ul li{
-  display: inline-block;
-}
 
 header h2{
   text-align: center;
-  margin-top: -10px;
-  font-size: 30px;
+  margin-top: 0px;
+  font-size: 40px;
   color: blue;
   font-family: serif;
-  text-shadow: 0 5px 5px black;
-}
-
-nav ul{
-  list-style-type: none;
-  text-align: center;
 }
 
 nav li{
    display:inline-block;
-   width: 150px;
+   width: 170px;
    text-align: center;
    border-left: 1px dotted black;
 }
 
 
-.last-child{
-  border-right: 1px dotted black;
-}
-
 .container{
   width: 100%;
   margin: 0px;
   text-align: center;
-
-}
-
-.itmem1{
-  width: 70%;
 }
 
 .item1 h2{
@@ -70,22 +44,11 @@ nav li{
   font-family: serif;
 }
 
-.item1 img{
-  width: 80%;
-  
+.item1 input{
+  width: 200px;
+  height: 30px;
 }
 
-.article_item{
-  width: 60%;
-  }
-
-
-.article_item p{
-  text-align: center;
-  font-family: serif;
-  font-size: 20px;
-  margin-top: 5px;
-}
 
 footer{
   width: 100%;
@@ -100,6 +63,25 @@ footer h2{
 }
 
 
+footer h2{
+  text-align: center;
+  font-size:15px;
+}
+
+footer ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+footer li{
+  display:inline-block;
+   width: 165px;
+   text-align: center;
+}
+
+footer p{
+  text-align: center;
+  margin-top: 20px;
 
 
 
